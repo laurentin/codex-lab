@@ -1,0 +1,23 @@
+  mesos.master : "local.mesos.com:5050"
+
+  scoring.host : "http://scoring.dev.com:8080/v1"
+  scoring.clientId : "AOZpdJIBo8lwGfH.dev.com"
+  scoring.clientSecret : "AOFmsTrxMk24unSqwdev"
+
+  kinesis.applicationName : "dev.score.application"
+  kinesis.streamName : "dev.kinesis.score"
+  kinesis.region : "us-east-1"
+  kinesis.partitionKey : "partitionKey"
+
+  aws.arn : "arn:aws:iam::187631879586:role/io.dev"
+  aws.accountId : "1876318dev"
+  aws.sessionTokenDurationSeconds : "3600"
+
+  assignments.host : "http://dev.api.hmhco.com/intassignments/v2"
+  assignments.clientId : "TS085Pr9kuZJ-woi6VkPjpB-dev"
+  assignments.clientSecret : "d5qcdNp1UX0gZyGnMk5coyunyeoy-dev"
+
+  retry.limit.mesos : 5
+  retry.limit.benchmarkTask : 5
+  retry.waitIntercept : 1000
+  retry.waitSlope : 1000
