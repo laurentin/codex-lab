@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d53e85-8348-472a-975b-5021b80d6ce1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsonscoringframework.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="18d53e85-8348-472a-975b-5021b80d6ce1" name="Default" comment="" />
     <ignored path="codex-lab.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -38,8 +35,8 @@
       <file leaf-file-name="jsonscoringframework.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsonscoringframework.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6099291">
-              <caret line="31" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+            <state vertical-scroll-proportion="1.2765957">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -627,12 +624,12 @@
       <created>1469566526221</created>
       <option name="number" value="Default" />
       <updated>1469566526221</updated>
-      <workItem from="1469566527742" duration="17801000" />
+      <workItem from="1469566527742" duration="18156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17801000" />
+    <option name="totallyTimeSpent" value="18156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="57" width="1440" height="827" extended-state="6" />
@@ -705,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsonscoringframework.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6099291">
-          <caret line="31" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+        <state vertical-scroll-proportion="1.2765957">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding />
         </state>
       </provider>
