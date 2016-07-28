@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d53e85-8348-472a-975b-5021b80d6ce1" name="Default" comment="" />
+    <list default="true" id="18d53e85-8348-472a-975b-5021b80d6ce1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoringframework.yml" afterPath="$PROJECT_DIR$/scoringframework.yml" />
+    </list>
     <ignored path="codex-lab.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -26,27 +29,17 @@
         <entry file="file://$PROJECT_DIR$/scoringframework-local.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scoringframework-local.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scoringframework-local.yml">
+      <file leaf-file-name="scoringframework.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scoringframework.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.738255">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scoringframework-int.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scoringframework-int.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7986577">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,6 +66,7 @@
         <option value="$PROJECT_DIR$/scoringframework-int.properties" />
         <option value="$PROJECT_DIR$/scoringframework-local.yml" />
         <option value="$PROJECT_DIR$/scoringframework-local.properties" />
+        <option value="$PROJECT_DIR$/scoringframework.yml" />
       </list>
     </option>
   </component>
@@ -631,12 +625,12 @@
       <created>1469566526221</created>
       <option name="number" value="Default" />
       <updated>1469566526221</updated>
-      <workItem from="1469566527742" duration="10951000" />
+      <workItem from="1469566527742" duration="12953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10951000" />
+    <option name="totallyTimeSpent" value="12953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
@@ -702,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/scoringframework-int.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -710,15 +704,15 @@
     <entry file="file://$PROJECT_DIR$/scoringframework-local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scoringframework-local.yml">
+    <entry file="file://$PROJECT_DIR$/scoringframework.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.738255">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.7986577">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>

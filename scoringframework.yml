@@ -1,11 +1,107 @@
 ---
+  profiles: int
+  mesos:
+    master: zk://10.40.131.24:2181,10.40.139.50:2181,10.40.135.54:2181/mesos
+
+  scoring:
+    host: http://spring-scoring01.int.hmheng.io/v1
+    clientId: AOZpdJIBo8lwGfH.hmhco.com
+    clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
+
+  kinesis:
+    applicationName : io.hmheng.int.hmhone.score.learnocity.application
+    streamName : io.hmheng.int.kinesis.hmhone.assessment.score
+    region : us-east-1
+    partitionKey : partitionKey
+
+  aws:
+    arn : arn:aws:iam::187631879586:role/io.hmheng.int.hmhone.score.local
+    accountId : 187631879586
+    sessionTokenDurationSeconds : 3600
+
+  assignments:
+    host : http://int.asmtone.api.hmhco.com/hmh1assignments/v2
+    clientId : TS085Pr9kuZJ-woi6VkPjpBN11r_.hmhco.com
+    clientSecret : d5qcdNp1UX0gZyGnMk5coyunyeoyoLP7MFDai4ads-hNl-NH5kA0xU_OLa
+
+  retry:
+    limit:
+      mesos : 5
+      benchmarkTask : 5
+    waitIntercept : 1000
+    waitSlope : 1000
+---
+profiles: cert
+  mesos:
+    master: zk://10.40.131.24:2181,10.40.139.50:2181,10.40.135.54:2181/mesos
+
+  scoring:
+    host: https://spring-scoring01.cert.hmheng.io/v1
+    clientId: AOZpdJIBo8lwGfH.hmhco.com
+    clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
+
+  kinesis:
+    applicationName : io.hmheng.cert.hmhone.score.learnocity.application
+    streamName : io.hmheng.cert.kinesis.hmhone.assessment.score
+    region : us-east-1
+    partitionKey : partitionKey
+
+  aws:
+    arn : arn:aws:iam::187631879586:role/io.hmheng.cert.hmhone.score.local
+    accountId : 187631879586
+    sessionTokenDurationSeconds : 3600
+
+  assignments:
+    host : https://cert.hmhco.com/api/assignment/v2
+    clientId : TS085Pr9kuZJ-woi6VkPjpBN11r_.hmhco.com
+    clientSecret : d5qcdNp1UX0gZyGnMk5coyunyeoyoLP7MFDai4ads-hNl-NH5kA0xU_OLa
+
+  retry:
+    limit:
+      mesos : 5
+      benchmarkTask : 5
+    waitIntercept : 1000
+    waitSlope : 1000
+---
+profiles: certrv
+  mesos:
+    master: zk://10.40.131.24:2181,10.40.139.50:2181,10.40.135.54:2181/mesos
+
+  scoring:
+    host: https://spring-scoring01.certrv.hmheng.io/v1
+    clientId: AOZpdJIBo8lwGfH.hmhco.com
+    clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
+
+  kinesis:
+    applicationName : io.hmheng.certrv.hmhone.score.learnocity.application
+    streamName : io.hmheng.certrv.kinesis.hmhone.assessment.score
+    region : us-east-1
+    partitionKey : partitionKey
+
+  aws:
+    arn : arn:aws:iam::187631879586:role/io.hmheng.certrv.hmhone.score.local
+    accountId : 187631879586
+    sessionTokenDurationSeconds : 3600
+
+  assignments:
+    host : https://certrv.hmhco.com/api/assignment/v2
+    clientId : TS085Pr9kuZJ-woi6VkPjpBN11r_.hmhco.com
+    clientSecret : d5qcdNp1UX0gZyGnMk5coyunyeoyoLP7MFDai4ads-hNl-NH5kA0xU_OLa
+
+  retry:
+    limit:
+      mesos : 5
+      benchmarkTask : 5
+    waitIntercept : 1000
+    waitSlope : 1000
+---
 spring:
   profiles: local
   mesos:
     master: 127.0.0.1:5050
 
   scoring:
-    host: http://localhost:8080/v1
+    host: host = "http://spring-scoring01.dev.hmheng.io/v1
     clientId: AOZpdJIBo8lwGfH.hmhco.com
     clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
 
@@ -22,6 +118,38 @@ spring:
 
   assignments:
     host : http://int.asmtone.api.hmhco.com/hmh1assignments/v2
+    clientId : TS085Pr9kuZJ-woi6VkPjpBN11r_.hmhco.com
+    clientSecret : d5qcdNp1UX0gZyGnMk5coyunyeoyoLP7MFDai4ads-hNl-NH5kA0xU_OLa
+
+  retry:
+    limit:
+      mesos : 5
+      benchmarkTask : 5
+    waitIntercept : 1000
+    waitSlope : 1000
+---
+profiles: prod
+  mesos:
+    master: zk://10.40.119.63:2181,10.40.123.13:2181,10.40.115.41:2181/mesos
+
+  scoring:
+    host: https://spring-scoring01.hmheng.io/v1
+    clientId: AOZpdJIBo8lwGfH.hmhco.com
+    clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
+
+  kinesis:
+    applicationName : io.hmheng.prod.hmhone.score.learnocity.application
+    streamName : io.hmheng.prod.kinesis.hmhone.assessment.score
+    region : us-east-1
+    partitionKey : partitionKey
+
+  aws:
+    arn : arn:aws:iam::744109863715:role/io.hmheng.prod.hmhone.score.local
+    accountId : 744109863715
+    sessionTokenDurationSeconds : 3600
+
+  assignments:
+    host : https://www.hmhco.com/api/assignment/v2
     clientId : TS085Pr9kuZJ-woi6VkPjpBN11r_.hmhco.com
     clientSecret : d5qcdNp1UX0gZyGnMk5coyunyeoyoLP7MFDai4ads-hNl-NH5kA0xU_OLa
 
