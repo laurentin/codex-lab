@@ -1,32 +1,32 @@
 ---
 profiles: int
-  mesos:
-    master: zk://10.40.131.24:2181,10.40.139.50:2181,10.40.135.54:2181/mesos
+mesos:
+  master: zk://10.40.131.24:2181,10.40.139.50:2181,10.40.135.54:2181/mesos
 
-  scoring:
-    host: http://spring-scoring01.int.hmheng.io/v1
-    clientId: AOZpdJIBo8lwGfH.hmhco.com
-    clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
+scoring:
+  host: http://spring-scoring01.int.hmheng.io/v1
+  clientId: AOZpdJIBo8lwGfH.hmhco.com
+  clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
 
-  kinesis:
-    applicationName : io.hmheng.int.hmhone.score.learnocity.application
-    streamName : io.hmheng.int.kinesis.hmhone.assessment.score
-    region : us-east-1
-    partitionKey : partitionKey
+kinesis:
+  applicationName : io.hmheng.int.hmhone.score.learnocity.application
+  streamName : io.hmheng.int.kinesis.hmhone.assessment.score
+  region : us-east-1
+  partitionKey : partitionKey
 
-  aws:
-    arn : arn:aws:iam::187631879586:role/io.hmheng.int.hmhone.score.local
-    accountId : 187631879586
-    sessionTokenDurationSeconds : 3600
+aws:
+  arn : arn:aws:iam::187631879586:role/io.hmheng.int.hmhone.score.local
+  accountId : 187631879586
+  sessionTokenDurationSeconds : 3600
 
-  assignments:
-    host : http://int.asmtone.api.hmhco.com/hmh1assignments/v2
-    clientId : TS085Pr9kuZJ-woi6VkPjpBN11r_.hmhco.com
-    clientSecret : d5qcdNp1UX0gZyGnMk5coyunyeoyoLP7MFDai4ads-hNl-NH5kA0xU_OLa
+assignments:
+  host : http://int.asmtone.api.hmhco.com/hmh1assignments/v2
+  clientId : TS085Pr9kuZJ-woi6VkPjpBN11r_.hmhco.com
+  clientSecret : d5qcdNp1UX0gZyGnMk5coyunyeoyoLP7MFDai4ads-hNl-NH5kA0xU_OLa
 
-  retry:
-    limit:
-      mesos : 5
-      benchmarkTask : 5
-    waitIntercept : 1000
-    waitSlope : 1000
+retry:
+  limit:
+    mesos : 5
+    benchmarkTask : 5
+  waitIntercept : 1000
+  waitSlope : 1000
