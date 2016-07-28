@@ -1,5 +1,4 @@
 {
-  "spring": {
     "profiles": "local",
     "mesos": {
       "master": "127.0.0.1:5050"
@@ -33,5 +32,4 @@
       "waitIntercept": "1000",
       "waitSlope": "1000"
     }
-  }
 }
