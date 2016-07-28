@@ -1,5 +1,5 @@
 ---
-  profiles: int
+profiles: int
   mesos:
     master: zk://10.40.131.24:2181,10.40.139.50:2181,10.40.135.54:2181/mesos
 
