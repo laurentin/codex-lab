@@ -105,7 +105,7 @@ mesos:
   master: 127.0.0.1:5050
 
 scoring:
-  host: host = http://spring-scoring01.dev.hmheng.io/v1
+  host: http://spring-scoring01.dev.hmheng.io/v1
   clientId: AOZpdJIBo8lwGfH.hmhco.com
   clientSecret: AOFmsTrxMk24unSqwOOa3-C5s8SfsgYPH70dOcqOzCaDqxIXF
 
