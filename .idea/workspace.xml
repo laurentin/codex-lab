@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18d53e85-8348-472a-975b-5021b80d6ce1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="18d53e85-8348-472a-975b-5021b80d6ce1" name="Default" comment="" />
     <ignored path="codex-lab.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,17 +26,27 @@
         <entry file="file://$PROJECT_DIR$/scoringframework.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsonscoringframework.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jsonscoringframework.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsonscoringframework.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scoringframework-int.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scoringframework-int.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5704698">
+              <caret line="17" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -62,12 +70,12 @@
         <option value="$PROJECT_DIR$/application-development.properties" />
         <option value="$PROJECT_DIR$/application-int.properties" />
         <option value="$PROJECT_DIR$/application-local.properties" />
-        <option value="$PROJECT_DIR$/scoringframework-int.properties" />
         <option value="$PROJECT_DIR$/scoringframework-local.yml" />
         <option value="$PROJECT_DIR$/scoringframework-local.properties" />
         <option value="$PROJECT_DIR$/scoringframework.yml" />
         <option value="$PROJECT_DIR$/jsonscoringframework.json" />
         <option value="$PROJECT_DIR$/jsonscoringframework.yml" />
+        <option value="$PROJECT_DIR$/scoringframework-int.properties" />
       </list>
     </option>
   </component>
@@ -77,8 +85,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="40" />
+    <option name="y" value="34" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
   </component>
@@ -627,15 +634,15 @@
       <created>1469566526221</created>
       <option name="number" value="Default" />
       <updated>1469566526221</updated>
-      <workItem from="1469566527742" duration="18718000" />
+      <workItem from="1469566527742" duration="21932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18718000" />
+    <option name="totallyTimeSpent" value="21932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="40" width="1440" height="827" extended-state="6" />
+    <frame x="0" y="34" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -695,18 +702,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scoringframework.yml">
+    <entry file="file://$PROJECT_DIR$/jsonscoringframework.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsonscoringframework.yml">
+    <entry file="file://$PROJECT_DIR$/scoringframework.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scoringframework-int.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5704698">
+          <caret line="17" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="46" />
           <folding />
         </state>
       </provider>
